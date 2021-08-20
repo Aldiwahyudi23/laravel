@@ -11,7 +11,6 @@ deployment:
     - /bin/cp -R routes $DEPLOYPATH
     - /bin/cp -R storage $DEPLOYPATH
     - /bin/cp -R tests $DEPLOYPATH
-    - /bin/cp .env $DEPLOYPATH
     - /bin/cp .editorconfig $DEPLOYPATH
     - /bin/cp .env.example $DEPLOYPATH
     - /bin/cp .gitattibutes $DEPLOYPATH
@@ -26,3 +25,4 @@ deployment:
     - /bin/cp server.php $DEPLOYPATH
     - /bin/cp webpack.mix.js $DEPLOYPATH
     - /bin/cp -R vendor $DEPLOYPATH
+    - /bin/cp .env $DEPLOYPATH
