@@ -18,6 +18,7 @@ deployment:
     - /bin/cp .gitattibutes $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp .styleci.yml $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp composer.lock $DEPLOYPATH
     - /bin/cp package.json $DEPLOYPATH
