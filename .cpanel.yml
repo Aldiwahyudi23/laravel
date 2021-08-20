@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/user/public_html/
+    - export DEPLOYPATH=/home/u1021663/public_html/
     - /bin/cp -R app $DEPLOYPATH
     - /bin/cp -R boostrap $DEPLOYPATH
     - /bin/cp -R config $DEPLOYPATH
