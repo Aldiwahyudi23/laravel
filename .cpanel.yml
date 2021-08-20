@@ -3,7 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u1021663/public_html/
     - /bin/cp -R app $DEPLOYPATH
-    - /bin/cp -R boostrap $DEPLOYPATH
+    - /bin/cp -R bootstrap $DEPLOYPATH
     - /bin/cp -R config $DEPLOYPATH
     - /bin/cp -R database $DEPLOYPATH
     - /bin/cp -R public $DEPLOYPATH
