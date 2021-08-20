@@ -1,6 +1,6 @@
 @extends('tampilan/awal')
 
-@section('tittle', 'Home')
+@section('tittle', 'Shop')
 
 @section('isi')
 
